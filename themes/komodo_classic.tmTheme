@@ -298,6 +298,34 @@
 				<string>#000000</string>
 			</dict>
 		</dict>
+        <!--HTML specific colours-->
+		<dict>
+			<key>scope</key>
+			<string>html.tag.entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0032FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>html.tag.punctuation.definition</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0032FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>html.tag.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#871f78</string>
+			</dict>
+		</dict>
 
         <!--Python specific colours-->
 		<dict>
