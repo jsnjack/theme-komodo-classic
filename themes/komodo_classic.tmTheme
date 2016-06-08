@@ -298,7 +298,8 @@
 				<string>#000000</string>
 			</dict>
 		</dict>
-		<!--Python specific colours-->
+
+        <!--Python specific colours-->
 		<dict>
 			<key>scope</key>
 			<string>decorator.function.python</string>
@@ -315,6 +316,25 @@
 			<dict>
 				<key>foreground</key>
 				<string>#23238e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>python.exception</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+        <!--Function arguments-->
+		<dict>
+			<key>scope</key>
+			<string>python.function.parameter.parameters</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
 			</dict>
 		</dict>
 	</array>
