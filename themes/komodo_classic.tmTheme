@@ -339,6 +339,24 @@
 		</dict>
 		<dict>
 			<key>scope</key>
+			<string>decorator.arguments.string.function.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#23238e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>decorator.arguments.function.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
 			<string>token.meta.dictionary.key.python</string>
 			<key>settings</key>
 			<dict>
