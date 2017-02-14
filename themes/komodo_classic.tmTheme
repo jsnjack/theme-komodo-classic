@@ -92,22 +92,11 @@
 			<key>name</key>
 			<string>User-defined constant</string>
 			<key>scope</key>
-			<string>constant.character, constant.other</string>
+			<string>constant.character</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#ac4142</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variable</string>
-			<key>scope</key>
-			<string>variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#c86464</string>
 			</dict>
 		</dict>
 		<dict>
@@ -136,7 +125,7 @@
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class</string>
+			<string>entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -165,17 +154,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#008B8B</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function argument</string>
-			<key>scope</key>
-			<string>variable.parameter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#c86464</string>
 			</dict>
 		</dict>
 		<dict>
@@ -301,7 +279,7 @@
         <!--HTML specific colours-->
 		<dict>
 			<key>scope</key>
-			<string>html.tag.entity</string>
+			<string>entity.name.tag.block.any.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -310,7 +288,7 @@
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>html.tag.punctuation.definition</string>
+			<string>entity.name.tag.inline.any.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -319,18 +297,99 @@
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>html.tag.attribute-name</string>
+			<string>meta.tag.any.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0032FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.tag.begin.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0032FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.tag.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0032FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#871f78</string>
 			</dict>
 		</dict>
-
+		<dict>
+			<key>scope</key>
+			<string>entity.name.tag.script.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0032FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.tag.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0032FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.name.tag.structure.any.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0032FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#871f78</string>
+			</dict>
+		</dict>
+		<!--Django specific colours-->
+		<dict>
+			<key>scope</key>
+			<string>entity.other.django.delimiter.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#871f78</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.other.django.delimiter.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#008B8B</string>
+			</dict>
+		</dict>
         <!--Python specific colours-->
 		<dict>
 			<key>scope</key>
-			<string>decorator.function.python</string>
+			<string>entity.name.function.decorator.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -366,11 +425,38 @@
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>python.exception</string>
+			<string>support.type.exception.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>variable.language.special.self.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c86464</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>storage.type.string.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#23238e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>storage.modifier.declaration.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ac4142</string>
 			</dict>
 		</dict>
         <!--Function arguments-->
