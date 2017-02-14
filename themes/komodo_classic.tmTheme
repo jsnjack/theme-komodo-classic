@@ -469,6 +469,25 @@
 				<string>#000000</string>
 			</dict>
 		</dict>
+		<!--XML section-->
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.tag.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0032FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.name.tag.localname.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0032FF</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>4FCFA210-B247-11D9-9D00-000D93347A42</string>
