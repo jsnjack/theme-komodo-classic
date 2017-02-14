@@ -2,7 +2,7 @@
 	"name": "theme-komodo-classic",
 	"displayName": "Komodo classic",
 	"description": "Komodo classic theme",
-	"version": "0.0.1",
+	"version": "0.1",
 	"publisher": "jsnjack",
 	"engines": {
 		"vscode": "^0.10.6"
