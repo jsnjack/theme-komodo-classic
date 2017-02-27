@@ -398,6 +398,15 @@
 		</dict>
 		<dict>
 			<key>scope</key>
+			<string>support.type.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
 			<string>decorator.arguments.string.function.python</string>
 			<key>settings</key>
 			<dict>
