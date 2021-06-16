@@ -4,6 +4,10 @@
 	"description": "Komodo classic theme",
 	"version": "0.2.0",
 	"publisher": "jsnjack",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jsnjack/theme-komodo-classic"
+	},
 	"engines": {
 		"vscode": "^0.10.6"
 	},
